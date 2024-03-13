@@ -22,18 +22,14 @@
     dynamicBackground();
     slickInit();
     isotopInit();
-    review();
-    modalVideo();
     tabs();
     accordian();
     counterInit();
     rippleInit();
     parallaxEffect();
     hobbleEffect();
-    hoverTab();
     lightGalleryInit();
     scrollUp();
-    portfolioSection();
     parallaxSwiperSlider();
     fullScreenSwiperSlider();
     if ($.exists('.wow')) {
