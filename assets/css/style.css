@@ -5483,19 +5483,15 @@ Follow us
   margin-top: 40px;
 }
 
-.social-media{
+/* .social-media{
   display: grid;
   grid-template-columns: repeat(2,1fr);
-}
-
-/* .so-img{
-  height: 300px;
-}
-.so-img img{
-  height: 300px;
-  width: 100%;
-  object-fit: cover;
 } */
+
+.so-img {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
 
 @media(max-width:991px) {
   .follow-us h1 {
@@ -5510,6 +5506,10 @@ Follow us
   display: grid;
   grid-template-columns: 1fr;
   margin-top: 40px;
+}
+
+.google-map{
+  height: 500px;
 }
 
 }
