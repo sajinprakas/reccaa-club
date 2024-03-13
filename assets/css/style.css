@@ -4555,6 +4555,38 @@ Banner
   margin-top: 5px;
   animation: scroll-anim-mobile 1.6s cubic-bezier(0.62, 0.01, 0.71, 0.47) 0s infinite normal forwards;
 }
+
+.hero-overlay-sec {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  background-color: #0000004f;
+  width: 500px;
+  /* height: 500px; */
+}
+
+.hero-sect-inner{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border: 1px solid #fff;
+  padding: 35px;
+}
+
+.hero-sect-inner img {
+  width: 80px;
+  margin-bottom: 20px;
+}
+
+.hero-sect-inner h5,h1,p {
+  color: #fff;
+}
+
+
 @media (min-width: 1024px) {
   .home-showcase .home-showcaseSlider {
     display: block;
